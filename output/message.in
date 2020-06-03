@@ -1,0 +1,130 @@
+  1  8  ERROR:
+  2 34 This file is needed to continue:  
+  3 30 This filename is duplicated: 
+  4 22        Check files.in
+  5 27 This file already exists:  
+  6 50 A problem occurred reading the parameter on line
+  7 57        Check the file containing integration parameters.
+  8 46 A problem occurred reading the file:
+  9 63    Continuing integration from dump files at potential point 
+ 10 24    Integration complete.
+ 11 34    Beginning the main integration.
+ 12  3 no 
+ 13  3 yes
+ 14 49        Modify polyhedron.inc and recompile Polyhedron.
+ 15 44 The total number of centroids exceeds nocen.
+ 16 44 The total number of vertices exceeds novmax.
+ 17 41 The total number of faces exceeds nopmax.
+ 18 42        Check the file containing vertices.
+ 19 39        Check the file containing faces.
+ 20 67 )O+_05 Integration parameters  (WARNING: Do not delete this line!!)
+ 21 39 ) Lines beginning with `)' are ignored.
+ 22 70 )---------------------------------------------------------------------
+ 23 35 ) Important integration parameters:
+ 24 22  number of vertices = 
+ 25 19  number of faces = 
+ 26 25  number of grid points = 
+ 27 17  dump interval = 
+ 28 22 ) Integration options:
+ 29 20  output precision = 
+ 30 52 ) These parameters do not need to be adjusted often:
+ 31 20  density (g/cm^3) = 
+ 32 27  rotation period (hours) = 
+ 33  3 low
+ 34  6 medium
+ 35  4 high
+ 36 64 ) Note: vertices must be in same unit distance of the densities!
+ 37 23  use mascons' method = 
+ 38 72  layers' densities (mass/distance^3) from most superficial to deepest = 
+ 39 10  factor = 
+ 40 20  a (distance_unit)= 
+ 41 20  b (distance_unit)= 
+ 42 20  c (distance_unit)= 
+ 43 66  gravitational constant (distance_unit^3/time_unit^2/mass_unit) = 
+ 44  0 
+ 45  0 
+ 46 10  WARNING:
+ 47 36         is corrupted at line number: 
+ 48 31 Process completed successfully!
+ 49 38         is corrupted at column number: 
+ 50  0 
+ 51  1 ,
+ 52  1 )
+ 53  1 (
+ 54 26  Center of mass (c.o.m.)=  
+ 55 39  Inertia tensor with origin at c.o.m. :
+ 56 22  Polyhedron's mass  = 
+ 57 22  Volumetric radius  = 
+ 58 22  Polyhedron's volume= 
+ 59 13 Eigenvalues: 
+ 60 58  Normalized Eigenvectors (in columns) - transposed matrix:
+ 61 21 CubicCoeffs[3,2,1,0]=
+ 62 33 CubicRoots:  negative determinant
+ 63  7 lox,lo=
+ 64  7 hix,hi=
+ 65 37 VolIntBinSearchCubicRoot:  Bad inputs
+ 66 51 VolIntBinSearchCubicRoot:  exceeded 1000 iterations
+ 67 45 Cannot solve for eigenvectors; probably X,Y,Z
+ 68 49  Normalized Eigenvectors in Lat & WLon (degrees):
+ 69 26 W   (Lat, WLon in degrees)
+ 70  0
+ 71 30  read points from grid file = 
+ 72 35  initial grid point x (distance) = 
+ 73 33  final grid point x (distance) = 
+ 74 35  initial grid point y (distance) = 
+ 75 33  final grid point y (distance) = 
+ 76 35  initial grid point z (distance) = 
+ 77 33  final grid point z (distance) = 
+ 78 26  x increment (distance) = 
+ 79 26  y increment (distance) = 
+ 80 26  z increment (distance) = 
+ 81  0 
+ 82 26    Elapsed Total CPU Time=
+ 83 21    Elapsed Dump File=
+ 84  9    real: 
+ 85  9    user: 
+ 86  9    sys : 
+ 87  1 d
+ 88  1 h
+ 89  1 m 
+ 90  1 s
+ 91 18    Time remaining: 
+ 92 26    Total Size of outfile: 
+ 93 20    Size of outfile: 
+ 94  6 bytes 
+ 95  3 -> 
+ 96  0 
+ 97 23 x increment must be > 0
+ 98 23 y increment must be > 0
+ 99 23 z increment must be > 0
+100  0 
+101 60  Principal moments of inertia (normalized by the body mass):
+102 35  Equivalent Ellipsoid (a x b x c): 
+103  3  x 
+104 37  Main gravity coefficients (C20,C22):
+105 30  Mass-distribution parameter: 
+106  7  C20 = 
+107  7  C22 = 
+108 15  Inertia axes: 
+109  0 
+110 43 Vertice 0 found! Must be start at 1. Line: 
+111 23  Number of vertices  = 
+112 23  Number of faces     = 
+113 23  Number of centroids = 
+114  0 
+115  0 
+116 21  use cubic mascons = 
+117 33  use potential from cubic file = 
+118 10  x-size = 
+119 10  y-size = 
+120 10  z-size = 
+121  0 
+122  0 
+123  0 
+124  0 
+125  0 
+126  0 
+127  0 
+128  0 
+129  0 
+130  0 

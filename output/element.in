@@ -1,0 +1,72 @@
+)O+_06 element  (WARNING: Do not delete this line!!)
+) Lines beginning with `)' are ignored.
+) Note: densities must be in same unit distance of vertices!
+) Author:        Andre Amarante Luiz        (A. Amarante)     - a.amarante.br@gmail.com
+) Collaborators: Thierry Gregory Gil Chanut (T. G. G. Chanut) - thierry@feg.unesp.br
+)                Othon Cabo Winter          (O. C. Winter)    - ocwinter@gmail.com
+) Last modification: 11/18/2017
+)---------------------------------------------------------------------
+ number of input files = 20
+)---------------------------------------------------------------------
+) List the input files, one per line
+ ../v1/out/v1.out
+ ../v2/out/v2.out
+ ../v3/out/v3.out
+ ../v4/out/v4.out
+ ../v5/out/v5.out
+ ../v6/out/v6.out
+ ../v7/out/v7.out
+ ../v8/out/v8.out
+ ../v9/out/v9.out
+ ../v10/out/v10.out
+ ../v11/out/v11.out
+ ../v12/out/v12.out
+ ../v13/out/v13.out
+ ../v14/out/v14.out
+ ../v15/out/v15.out
+ ../v16/out/v16.out
+ ../v17/out/v17.out
+ ../v18/out/v18.out
+ ../v19/out/v19.out
+ ../v20/out/v20.out
+)---------------------------------------------------------------------
+ initial grid point x = -100.1
+ final grid point x = 100.1
+ initial grid point y = -100.1
+ final grid point y = 100.1
+ initial grid point z = 0
+ final grid point z = 0
+) initial grid point x = 0
+) final grid point x = 0
+) initial grid point y = -100.1
+) final grid point y = 100.1
+) initial grid point z = -100.1
+) final grid point z = 100.1
+) initial grid point x = -100.1
+) final grid point x = 100.1
+) initial grid point y = 0
+) final grid point y = 0
+) initial grid point z = -100.1
+) final grid point z = 100.1
+)---------------------------------------------------------------------
+ minimum interval between outputs = 1
+) minimum interval between outputs = 10
+)---------------------------------------------------------------------
+) Output format? (e.g. v8.4 => potential with 8 digits & 4 dec. places)
+ x10.1 y10.1 v30.15e j30.15e a30.15e
+) y10.1 z10.1 v30.15e j30.15e a30.15e
+) x10.1 z10.1 v30.15e j30.15e a30.15e
+)---------------------------------------------------------------------
+) List of the output tags: x=X y=Y z=Z v=V vx=Vx vy=Vy vz=Vz vxx=Vxx
+) vyy=Vyy vzz=Vzz vxy=Vxy vxz=Vxz vyz=Vyz j=J a=Acel phi=Phi the=Thet
+) ome=Omeg lap=Lapl
+)---------------------------------------------------------------------
+ number of lines in each output file (0 for all lines in a single output file) = 0
+)---------------------------------------------------------------------
+) List the output files (List one per line or leave blank for v1.dat, v2.dat, ...)
+ xy
+) yz
+) xz
+) xy_10
+) yz_10
+) xz_10

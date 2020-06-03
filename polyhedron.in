@@ -1,0 +1,43 @@
+)O+_06 Integration parameters  (WARNING: Do not delete this line!!)
+) Lines beginning with `)' are ignored.
+) Note: densities must be in same unit distance of vertices!
+) Author:        Andre Amarante Luiz        (A. Amarante)     - a.amarante.br@gmail.com
+) Collaborators: Thierry Gregory Gil Chanut (T. G. G. Chanut) - thierry@feg.unesp.br
+)                Othon Cabo Winter          (O. C. Winter)    - ocwinter@gmail.com
+) Last modification: 11/18/2017
+)---------------------------------------------------------------------
+) Important integration parameters:
+)---------------------------------------------------------------------
+ number of grid points = 3216020
+ dump interval = 160801
+)---------------------------------------------------------------------
+) Integration options:
+)---------------------------------------------------------------------
+ output precision (low-4, medium-9 or high-15) = high
+ use mascons' method = no
+ use cubic mascons = no
+ use potential from cubic file = no
+ x-size = 1.d0
+ y-size = 1.d0
+ z-size = 1.d0
+ read points from grid file = no
+ initial grid point x (distance) = -100
+ final grid point x (distance) = -90.5
+ initial grid point y (distance) = -100
+ final grid point y (distance) = 100
+ initial grid point z (distance) = -100
+ final grid point z (distance) = 100
+ x increment (distance) = 0.5
+ y increment (distance) = 0.5
+ z increment (distance) = 0.5
+)---------------------------------------------------------------------
+) These parameters do not need to be adjusted often:
+)---------------------------------------------------------------------
+ layers' densities (mass_unit/distance_unit^3) List from most superficial to deepest = 0.5d12
+ rotation period (hours) = 15.92d0
+ factor = 1.0
+ a (distance_unit)= 0
+ b (distance_unit)= 0
+ c (distance_unit)= 0
+)---------------------------------------------------------------------
+ gravitational constant (distance_unit^3/time_unit^2/mass_unit) = 6.67428d-20
