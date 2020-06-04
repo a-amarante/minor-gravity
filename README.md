@@ -66,7 +66,7 @@ Or use the ``Makefile:``
 
 Or use the executable files ``minor-gravity_gfort`` or ``minor-gravity_ifort`` for Linux and Mac OS X compilers ``gfortran`` or ``ifort``, respectively:
 
-   First type ``chmod +x minor-gravity_gfort`` and after that to run your code using ``./minor-gravity_gfort``.
+   First type ``chmod +x minor-gravity_gfort`` and after that run your code using ``./minor-gravity_gfort``.
 
 Tricks and Caveats
 ------------------
@@ -85,3 +85,14 @@ Disclaimers
 
 * The source codes of this repository are available on reasonable request.
 
+Recent Publications
+-------------------
+
+The code was used in the following recent studies:
+
+* Amarante, A., Winter, O. C. (2020), Surface Dynamics, Equilibrium Points and Individual Lobes of the Kuiper Belt Object (486958) Arrokoth. MNRAS.
+* Amarante, A., Winter, O. C., Sfair, R. (2020), Stability and Evolution of Fallen Particles Around the Surface of Asteroid (101955) Bennu. JGR Planets.
+* O. C. Winter, G. Valvano, T. S. Moura, G. Borderes-Motta, A. Amarante, R. Sfair (2020), Asteroid triple-system 2001 SN263: surface characteristics and dynamical environment. MNRAS.
+* T. S. Moura, O. C. Winter, A. Amarante, R. Sfair, G. Borderes-Motta, G. Valvano (2019), Dynamical environment and surface characteristics of asteroid (16) Psyche. MNRAS.
+* S. Aljbaae, T. G. G. Chanut, V. Carruba, J. Souchay, A. F. B. A. Prado, A. Amarante (2017), The dynamical environment of asteroid 21 Lutetia according to different internal models. MNRAS.
+* T. G. G. Chanut, O. C. Winter, A. Amarante, N. C. S. Araujo (2015), 3D plausible orbital stability close to asteroid (216) Kleopatra. MNRAS.
