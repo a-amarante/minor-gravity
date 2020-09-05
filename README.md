@@ -3,7 +3,7 @@ Minor-Gravity Package
 A package to compute irregular gravitational fields around minor bodies, such as Asteroids and Comets.
 ---------------------------------
 
-I've implemented a modified version of the original POLYHEDRON code from D. Tsoulis into the Minor-Gravity package, that can compute the gravitational potential, and its first and second derivatives of a homogenous polyhedron, according to Petrovic (J of G, 1996). In addition, the Minor-Gravity package also can compute gravitational features of a polyhedron using the mascons approach.
+I've implemented a modified version of the original POLYHEDRON code from D. Tsoulis into the Minor-Gravity package, that can compute the gravitational potential, and its first and second derivatives of a homogenous polyhedron, according to Petrovic (J of G, 1996). In addition, the Minor-Gravity package also can compute gravitational features of a polyhedron using the mascons approach (Geissler et al., 1996).
 
 I've made some adaptations in the original Tsoulis (2012) code. For example, Minor-Gravity package writes the output file in a compressed format file using ASCII characters through subroutine ``mio_out.for``, adapted from Mercury package (Chambers, 1999). The compressed output file can have its data decompressed in a human-readable file and the user can also choose slices of boxes with arbitrary dimensions (for example, projection planes xOy, xOz and yOz) from original huge input grid. This can be made running the ``elementgr.for`` source from Minor-Gravity package. This reduces the original output file approximately ``3 times less`` considering double precision floating numbers (high output precision). For example, a total simulation size for KBO Ultima Thule is about ``6.7 GB``, while without compressed format file it will have an approximated ``19.5 GB`` size, specially using original ``polyhedron.f`` code. Another advantage is that Minor-Gravity package can compute numerically gravitational features from an irregular polyhedral shape at a bunch of choosen points, differently of the original polyhedron.f code that computes the gravity field always at center of mass of the polyhedron. This makes the algorithm more useful to deal numerically with this kind of management.
 
@@ -71,7 +71,7 @@ Or use the executable files ``minor-gravity_gfort`` or ``minor-gravity_ifort`` f
 Tricks and Caveats
 ------------------
 
-Unfortunately, the code needs to be recompiled any time parameters in the ``polyhedron.inc`` file get changed.
+Unfortunately, the code needs to be recompiled any time parameters in the ``polyhedron.inc`` file get changed. However, these parameters do not need to be adjusted often or almost never.
 
 Disclaimers
 ------------

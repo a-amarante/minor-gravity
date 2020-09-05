@@ -57,7 +57,7 @@
  57 22  Volumetric radius  = 
  58 22  Polyhedron's volume= 
  59 13 Eigenvalues: 
- 60 58  Normalized Eigenvectors (in columns) - transposed matrix:
+ 60 58  Normalized Eigenvectors (in columns):
  61 21 CubicCoeffs[3,2,1,0]=
  62 33 CubicRoots:  negative determinant
  63  7 lox,lo=

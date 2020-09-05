@@ -4,12 +4,12 @@
 ) Author:        Andre Amarante Luiz        (A. Amarante)     - a.amarante.br@gmail.com
 ) Collaborators: Thierry Gregory Gil Chanut (T. G. G. Chanut) - thierry@feg.unesp.br
 )                Othon Cabo Winter          (O. C. Winter)    - ocwinter@gmail.com
-) Last modification: 11/18/2017
+) Last modification: 08/29/2020
 )---------------------------------------------------------------------
 ) Important integration parameters:
 )---------------------------------------------------------------------
- number of grid points = 3216020
- dump interval = 160801
+ number of grid points = 19994
+ dump interval = 19994
 )---------------------------------------------------------------------
 ) Integration options:
 )---------------------------------------------------------------------
@@ -20,7 +20,7 @@
  x-size = 1.d0
  y-size = 1.d0
  z-size = 1.d0
- read points from grid file = no
+ read points from grid file = yes
  initial grid point x (distance) = -100
  final grid point x (distance) = -90.5
  initial grid point y (distance) = -100

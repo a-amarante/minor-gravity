@@ -24,7 +24,7 @@ c
 c
       parameter (novmax = 200000)
       parameter (nopmax = 200000)
-      parameter (noed = 100)
+      parameter (noed = 10)
       parameter (CMAX = 1000000)
       parameter (NMESS = 130)
       parameter (NFILES = 1)
