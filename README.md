@@ -83,6 +83,7 @@ Disclaimers
 
    ``Amarante, A., Winter, O. C. (2020), Surface Dynamics, Equilibrium Points and Individual Lobes of the Kuiper Belt Object (486958) Arrokoth. MNRAS.``
 
+* The code also has a Zenodo DOI number that can be used for citation: [https://doi.org/10.5281/zenodo.4015757](https://doi.org/10.5281/zenodo.4015757)
 * The source codes of this repository are available on reasonable request.
 
 Recent Publications
@@ -90,8 +91,8 @@ Recent Publications
 
 The code was used in the following recent studies:
 
-* Amarante, A., Winter, O. C. (2020), Surface Dynamics, Equilibrium Points and Individual Lobes of the Kuiper Belt Object (486958) Arrokoth. MNRAS.
 * Amarante, A., Winter, O. C., Sfair, R. (2020), Stability and Evolution of Fallen Particles Around the Surface of Asteroid (101955) Bennu. JGR Planets.
+* Amarante, A., Winter, O. C. (2020), Surface Dynamics, Equilibrium Points and Individual Lobes of the Kuiper Belt Object (486958) Arrokoth. MNRAS.
 * O. C. Winter, G. Valvano, T. S. Moura, G. Borderes-Motta, A. Amarante, R. Sfair (2020), Asteroid triple-system 2001 SN263: surface characteristics and dynamical environment. MNRAS.
 * T. S. Moura, O. C. Winter, A. Amarante, R. Sfair, G. Borderes-Motta, G. Valvano (2019), Dynamical environment and surface characteristics of asteroid (16) Psyche. MNRAS.
 * S. Aljbaae, T. G. G. Chanut, V. Carruba, J. Souchay, A. F. B. A. Prado, A. Amarante (2017), The dynamical environment of asteroid 21 Lutetia according to different internal models. MNRAS.
