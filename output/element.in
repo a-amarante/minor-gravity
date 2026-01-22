@@ -1,0 +1,60 @@
+)O+_06 element  (WARNING: Do not delete this line!!)
+) Lines beginning with `)' are ignored.
+) Note: densities must be in same unit distance of vertices!
+) Author:        Andre Amarante        (A. Amarante)     - andre.amarante@unesp.br
+) Last modification: 22/01/2025
+)---------------------------------------------------------------------
+ number of input files = 1
+)---------------------------------------------------------------------
+) List the input files, one per line
+ ../out/v1.out
+)---------------------------------------------------------------------
+ initial grid point x = -100.1
+ final grid point x = 100.1
+ initial grid point y = -100.1
+ final grid point y = 100.1
+ initial grid point z = -100.1
+ final grid point z = 100.1
+) initial grid point x = -100.1
+) final grid point x = 100.1
+) initial grid point y = -100.1
+) final grid point y = 100.1
+) initial grid point z = 0
+) final grid point z = 0
+) initial grid point x = 0
+) final grid point x = 0
+) initial grid point y = -100.1
+) final grid point y = 100.1
+) initial grid point z = -100.1
+) final grid point z = 100.1
+) initial grid point x = -100.1
+) final grid point x = 100.1
+) initial grid point y = 0
+) final grid point y = 0
+) initial grid point z = -100.1
+) final grid point z = 100.1
+)---------------------------------------------------------------------
+ minimum interval between outputs = 1
+) minimum interval between outputs = 10
+)---------------------------------------------------------------------
+) Output format? (e.g. v8.4 => potential with 8 digits & 4 dec. places)
+ x10.5 y10.5 z10.5 v30.15e c30.15e j30.15e at30.15e r10.5
+) x10.1 y10.1 v30.15e j30.15e a30.15e
+) y10.1 z10.1 v30.15e j30.15e a30.15e
+) x10.1 z10.1 v30.15e j30.15e a30.15e
+)---------------------------------------------------------------------
+) List of the output tags: x=X y=Y z=Z v=V vx=Vx vy=Vy vz=Vz vxx=Vxx
+) vyy=Vyy vzz=Vzz vxy=Vxy vxz=Vxz vyz=Vyz j=J a=Acel phi=Phi the=Thet
+) ome=Omeg lap=Lapl ene=Enrg pow=PowG vtx=Vtx vtx=Vty vtz=Vtz at=AccT
+) r=Radi c=VC cax=VCx cay=VCy ca=CA
+)---------------------------------------------------------------------
+ number of lines in each output file (0 for all lines in a single output file) = 0
+)---------------------------------------------------------------------
+) List the output files (List one per line or leave blank for v1.dat, v2.dat, ...)
+ data
+) xy
+) yz
+) xz
+) xy_10
+) yz_10
+) xz_10

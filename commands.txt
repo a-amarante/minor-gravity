@@ -1,0 +1,5 @@
+rm -rf *.dmp *.tmp *.o *out
+#gfortran command.for dhms.for get_pid.for timestamp2.for minor-gravity.for -o minor-gravity
+make clean
+make all
+./minor-gravity
