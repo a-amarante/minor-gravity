@@ -1,0 +1,9 @@
+ ../in/vertex.in
+ ../in/face.in
+ ../in/grid.in
+ polyhedron.in
+ ../in/message.in
+ ../in/cube.in
+ ../out/v1.out
+ polyhedron.dmp
+ restart.dmp
