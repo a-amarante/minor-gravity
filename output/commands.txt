@@ -1,3 +1,0 @@
-rm -rf *.dat
-gfortran elementgr_v2.for -o elementgr_v2
-./elementgr_v2
